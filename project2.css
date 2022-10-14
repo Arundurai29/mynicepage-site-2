@@ -1,0 +1,550 @@
+*{
+    text-decoration: none;
+    padding: 0px;
+    margin: 0px;
+}
+body{
+    width: 100%;
+    overflow-x: hidden;
+}
+@font-face{
+    font-family:'open';
+    src: url(open-sans.light.ttf);
+}
+@font-face{
+    font-family: 'roboto';
+    src: url(RobotoCondensed-Bold.ttf);
+}
+@font-face{
+    font-family: 'poppines1';
+    src: url(Poppins-ExtraBold.ttf);
+}
+@font-face{
+    font-family: 'poppines2';
+    src: url(Poppins-Light.ttf);
+}
+@font-face{
+    font-family: 'poppines3';
+    src: url(Poppins-Medium.ttf);
+}
+@font-face{
+    font-family: 'poppines4';
+    src: url(Poppins-ExtraLight.ttf);
+}
+.d01{
+    height:80px;
+    width: 1350px;
+    background-color: rgb(242,242,242);
+    position: sticky;
+    top: 0px;
+    z-index: 2;
+}
+#a01{
+    margin-left: 37px;
+}
+#a023{
+    margin-left: 366px;
+    margin-top: 18px;
+}
+#a03 {
+    height: 24px;
+    margin-left: 550px;
+}
+#a02 img{
+    margin-top: 21px;
+    margin-left: 13px;
+}
+.d2{
+    height: 850px;
+    width: 1350px;
+    background-image: url(p1.jpeg);
+    background-size: cover;
+}
+.d2 h1{
+    height: 109px;
+    width: 410px;
+    font-size: 2.9rem;
+    line-height: 1.1;
+    font-family: 'roboto';
+    padding-top: 440px;
+    padding-left: 50px;
+}
+#i1{
+    height: 49px;
+    width: 255px;
+    margin: 35px 5px 8px 50px;
+    font-size: 1.2rem;
+}
+#i2{
+    height: 52px;
+    width: 150px;
+    background-color: yellow;
+    border: none;
+    color: white;
+    font-size: 1.3rem;
+}
+.s1{
+    height: 2623px;
+    width: 1350px;
+    background-color: rgb(241,197,14);
+    position: relative;
+}
+.d4{
+    height: 530px;
+    width: 570px;
+    position: absolute;
+    margin: 110px 0px 0px 100px;
+}
+.d4 h1{
+    font-size: 2.4rem;
+    font-family: 'poppines1';
+    font-weight: 600;
+    padding-top: 82px;
+}
+.d4 p{
+    
+    font-size: 1.16rem;
+    font-family: sans-serif;
+    font-weight: 700;
+    line-height: 1.9;
+    padding-top: 22px;
+}
+.d5{
+    height: 587px;
+    width: 570px; 
+    position: absolute;
+    margin: 54px 0px 0px 741px;
+}
+.d5 img{
+    height: 588px;
+    width: 491px;
+}
+.d6{
+    height: 440px;
+    width: 1348px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 642px 0px 0px 0px;
+}
+.d7{
+    height: 440px;
+    width: 335px;
+    background-color: rgb(238,27,36);
+}
+.d8{
+    height: 440px;
+    width: 335px;
+    background-color:rgb(241,197,14) ;
+}
+.d9{
+    height: 440px;
+    width: 335px;
+    background-color: rgb(41,45,51);
+    margin-left: 7px;
+}
+.d10{
+    height: 440px;
+    width: 335px;
+    background-color: rgb(85,92,102);
+    
+}
+
+.d7 h2{
+    padding: 14px 0px 0px 30px;
+    font-family: 'poppines3';
+    font-size: 74px;
+    color: white;
+}
+.d8 h2{
+    padding: 14px 0px 0px 30px;
+    font-family: 'poppines3';
+    font-size: 74px;
+    color: black;
+}
+.d9 h2{
+    padding: 14px 0px 0px 30px;
+    font-family: 'poppines3';
+    font-size: 74px;
+    color: white;
+}
+.d10 h2{
+    padding: 14px 0px 0px 30px;
+    font-family: 'poppines3';
+    font-size: 74px;
+    color: white;
+}
+.d8 h3{
+    font-family: 'poppines2';
+    font-size: 1.27rem;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: black;
+}
+.d7 h3{
+    font-family: 'poppines2';
+    font-size: 1.27rem;
+    padding-left: 30px;
+    padding-top: 20px;
+    color:white;
+}
+.d9 h3{
+    font-family: 'poppines2';
+    font-size: 1.27rem;
+    padding-left: 30px;
+    padding-top: 20px;
+    color:white;
+}
+.d10 h3{
+    font-family: 'poppines2';
+    font-size: 1.27rem;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+}
+.d7 p{
+    font-family: 'poppines2';
+    font-size: 1.11rem;
+    line-height: 1.5;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+}
+.d8 p{
+    font-family: 'poppines2';
+    font-size: 1.11rem;
+    line-height: 1.5;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: black;
+}
+.d9 p{
+    font-family: 'poppines2';
+    font-size: 1.11rem;
+    line-height: 1.5;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+}
+.d10 p{
+    font-family: 'poppines2';
+    font-size: 1.11rem;
+    line-height: 1.5;
+    padding-left: 30px;
+    padding-top: 20px;
+    color: white;
+}
+.d7 i{
+    margin: 25px 0px 0px 30px;
+    color: white;
+}
+.d8 i{
+    margin: 25px 0px 0px 30px;
+    color:black;
+}
+
+.d9 i{
+    margin: 25px 0px 0px 30px;
+    color: white;
+}
+
+.d10 i{
+    margin: 25px 0px 0px 30px;
+    color: white;
+}
+.d11{
+    height: 740px;
+    width: 1048px;
+    background-color: rgb(41,45,51);
+    position: absolute;
+    margin: 1082px 0px 0px 301px;
+}
+.d12{
+    height: 400px;
+    width: 831px;
+    position: absolute;
+    margin: 1184px 0px 0px 67px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.d12 div{
+    height: 400px;
+    width: 400px;
+    border: 1px solid;
+}
+.d12 img{
+    height: 400px;
+    width: 400px;  
+}
+#d1{
+    background-image: url(p4.jpg);
+    background-size: cover;
+}
+.d13{
+    height: 400px;
+    width: 1259px;
+    position: absolute;
+    margin: 1615px 0px 0px 68px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.d13 div{
+    height: 400px;
+    width: 400px;
+}
+#d2{
+    background-image: url(p5.jpg);
+    background-size: cover;
+}
+#d3{
+    background-image: url(p6.jpg);
+    background-size: cover;
+}
+#d4{
+    background-image: url(p7.jpg);
+    background-size: cover;
+}
+.d14{
+    height: 500px;
+    width: 1258px;
+    position: absolute;
+    margin: 2045px 0px 0px 70px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.d14 div{
+    height: 500px;
+    width: 400px;
+
+}
+#d6{
+    background-image: url(p8.jpg);
+    background-size: cover;
+    background-position-y: -76px;
+    
+}
+#d7{
+    
+        background-image: url(p9.png);
+        background-size: cover;
+        background-position-x: -96px;
+ 
+}
+#d5 h2{
+    font-family: 'poppines3';
+    font-size: 2.1rem;
+    padding: 78px 0px 0px 33px;
+}
+#d5 p{
+    font-family: 'poppines3';
+    width: 318px;
+    font-size: 1rem;
+    padding: 41px 0px 0px 33px;
+    line-height: 2;
+}
+.s2{
+    height: 910px;
+    width: 1350px;
+    background-color: rgb(41,45,51);
+}
+.d15{
+    height: 340px;
+    width: 676px;
+    background-color: rgb(238,27,36);
+    position: absolute;
+    margin: 180px 0px 0px 330px;
+}
+.d16{
+    position: absolute;
+    height: 590px;
+    width: 500px;
+    margin: 55px 0px 0px 417px;
+    background-image: url(p10.jpeg);
+    background-size: cover;
+    background-position-y: -70px;
+}
+.d17{
+    width: 435px;
+    height: 145px;
+    position: absolute;
+    margin: 697px 0px 0px 458px;
+}
+.d17 h2{
+    font-family: 'poppines3';
+    font-size: 2.6rem;
+    padding-left: 67px;
+    color: white;
+}
+#p2{
+    font-size: 1.13rem;
+    color: white;
+    font-family: 'poppines3';
+    padding-top: 25px;
+}
+#p3{
+    font-size: 1.13rem;
+    color: white;
+    font-family: 'poppines3';
+    padding-left: 57px;
+}
+.s3{
+    height: 250px;
+    width: 1350px;
+    background-color: rgb(238,27,36);
+    position:relative ;
+    
+}
+.s3 h3{
+    font-size: 2.8rem;
+    font-family: 'poppines3';
+    color: white;
+    padding: 50px 0px 0px 552px;
+}
+.d18{
+    height: 50px;
+    width: 300px;
+    position: absolute;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin: 25px 0px 0px 513px;
+}
+.d18 div{
+    height: 50px;
+    width: 50px;
+}
+.d18 i{
+    margin: 8px 0px 0px 11px;
+    color: white;
+
+}
+.s4{
+    height: 600px;
+    width: 1350px;
+    background-color: rgb(41,45,51);
+    position: relative;
+}
+.d19{
+    width: 330px;
+    height: 600px;
+    margin-left: 90px;
+}
+.d19 h2{
+    font-family: 'poppines3';
+    font-size: 2.6rem;
+    padding-top: 70px;
+    color: white;
+}
+.d19 p{
+    font-size: 1.24rem;
+    color: white;
+    font-family: 'poppines2';
+    padding-top: 46px;
+}
+.d19 h3{
+    font-family: 'poppines3';
+    font-size: 2.6rem;
+    padding-top: 79px;
+    color: white;
+}
+.d20{
+    height: 45px;
+    width: 220px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 17px;
+}
+.d20 a{
+    height: 36px;
+    width: 36px;
+    background-color: white;
+    border-radius: 27px;
+}
+.d20 i{
+    margin: 5px 0px 0px 7px;
+    font-size: 27px;
+    color: rgb(41,45,51);
+}
+.d19 h4{
+    font-family: 'poppines2';
+    font-size: 1.24rem;
+    padding-top: 45px;
+    color: white;
+}
+.d21{
+    height: 598px;
+    width: 320px;
+    background-color: rgb(241,197,14);
+    position: absolute;
+    margin: -600px 0px 0px 513px;
+}
+.d22{
+    height: 597px;
+    width: 630px;
+    position: absolute;
+    margin: -600px 0px 0px 679px;
+}
+.d22 h2{
+    font-family: 'poppines3';
+    font-size: 2.6rem;
+    color: white;
+    padding-top: 57px;
+}
+.d22 input{
+    height: 52px;
+    width: 580px;
+    margin-top: 22px;
+    border: 0px;
+    font-size: 20px;
+    font-family: 'poppines2';
+}
+.d22 textarea{
+    width: 583px;
+    height: 152px;
+    margin-top: 22px;
+    border: 0px;
+}
+#d22b{
+    height: 50px;
+    width: 152px;
+    background-color: rgb(241,197,14);
+    border: 3.2px solid;
+    border-color: white;
+    margin-top: 34px;
+    font-size: 17px;
+    letter-spacing: 5px;
+    font-family: 'poppines3';
+    color: white;
+}
+#d22b:hover{
+    border-color: rgb(211, 198, 198);
+}
+footer{
+    height: 200px;
+    position: absolute;
+    width: 1350px;
+    background-color:rgb(34,40,49);
+
+}
+#f1{
+    color: white;
+    font-size: 17px;
+    font-weight: 500;
+    font-family: 'poppines4';
+    margin: 60px 0px 0px 566px;
+}
+footer a{
+    text-decoration: underline;
+    color: rgb(83, 165, 233);
+}
+#f2{
+    color: white;
+    font-size: 17px;
+    font-family: 'poppines4';
+    margin: 40px 0px 0px 585px;
+}
